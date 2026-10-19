@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The NexusEwik mark (two devices as diamonds) as a status bar glyph. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#FFFFFFFF" android:fillType="evenOdd"
+        android:pathData="M10.4,10.5 Q11.9,12 10.4,13.5 L8.6,15.3 Q7.1,16.8 5.6,15.3 L3.8,13.5 Q2.3,12 3.8,10.5 L5.6,8.7 Q7.1,7.2 8.6,8.7 Z M9.4,11 Q10.4,12 9.4,13 L8.1,14.3 Q7.1,15.3 6.1,14.3 L4.8,13 Q3.8,12 4.8,11 L6.1,9.7 Q7.1,8.7 8.1,9.7 Z M20.2,10.5 Q21.7,12 20.2,13.5 L18.4,15.3 Q16.9,16.8 15.4,15.3 L13.6,13.5 Q12.1,12 13.6,10.5 L15.4,8.7 Q16.9,7.2 18.4,8.7 Z M19.2,11 Q20.2,12 19.2,13 L17.9,14.3 Q16.9,15.3 15.9,14.3 L14.6,13 Q13.6,12 14.6,11 L15.9,9.7 Q16.9,8.7 17.9,9.7 Z" />
+</vector>

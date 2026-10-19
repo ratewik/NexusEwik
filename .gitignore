@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Windows Electron build output
+windows/dist/
+windows/vendor/
+windows-helper/bin/
+*.blockmap
+
+# Android build
+android/build/
+android/app/build/
+android/.gradle/
+android/.kotlin/
+local.properties
+captures/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*.swp

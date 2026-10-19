@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install dependencies",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": ["install", "--no-audit", "--no-fund"],
+			"options": { "cwd": "${workspaceFolder}\\windows" },
+			"problemMatcher": []
+		},
+		{
+			"label": "Build helper (.NET Framework csc)",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": ["run", "build:helper"],
+			"options": { "cwd": "${workspaceFolder}\\windows" },
+			"problemMatcher": []
+		},
+		{
+			"label": "Build installer (NSIS exe)",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": ["run", "dist", "--", "-c.win.sign=false", "-c.win.signAndEditExecutable=true"],
+			"options": { "cwd": "${workspaceFolder}\\windows" },
+			"group": { "kind": "build", "isDefault": true },
+			"problemMatcher": []
+		},
+		{
+			"label": "Run app (dev)",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": ["start"],
+			"options": { "cwd": "${workspaceFolder}\\windows" },
+			"problemMatcher": []
+		}
+	]
+}
